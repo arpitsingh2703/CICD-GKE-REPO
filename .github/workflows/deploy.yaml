@@ -6,7 +6,7 @@ on:
 
 env:
   GKE_CLUSTER: gke-cluster-1     # Replace with your actual GKE Cluster name
-  GKE_ZONE: us-central1-a        # Replace with your GKE cluster region/zone
+  GKE_ZONE: us-central1        # Replace with your GKE cluster region/zone
 
 jobs:
   deploy:
