@@ -22,7 +22,7 @@ spec:
         # Replaces default index page with your custom message without Docker
         command: ["/bin/sh", "-c"]
         args:
-          - echo "<h1>Deployed to GKE via GitHub Actions without Docker!</h1>" > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'
+          - echo "<h1>Deployed to GKE via GitHub Actions!</h1>" > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'
 ---
 apiVersion: v1
 kind: Service
